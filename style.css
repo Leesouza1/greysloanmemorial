@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,
+    cyan, yellow);
+}
+.cabecalho {
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    border-bottom: 1px solid #282828;
+}
+.cabecalho .logo {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .logo img {
+    height: 149px;
+    gap: 30px;
+}
+.NomeDoHospital{
+    color: rgb(241, 39, 69);
+    padding-top: 60px;
+}
+.field {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+input{
+    padding:15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+a {
+    padding: 30px;
+    color: #282828;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover {
+    border-bottom: 2px solid #282828;
+}
+
+.field a {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.field a:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}

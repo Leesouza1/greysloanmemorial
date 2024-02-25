@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="reset.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<header class="cabecalho">
+    <div class="logo">
+    <img src="https://humankind.shop/cdn/shop/products/GREY_S_ANATOMY-GREY___SLOAN_MEMORIAL_HOSPITAL.png?v=1676247897&width=1000" alt="">
+    <h1 class="NomeDoHospital">Grey+Sloan Memorial Hospital</h1>
+</div>
+<a class="menu" href="index.html">Voltar</a>
+</header>
+<body>
+    <div class="content">
+        <h1>Formulário</h1>
+        <form id="form">
+            <div>
+                <input type="nome" id="nome" placeholder="Digite seu nome:" class="inputs required" oninput="nameValidate()">
+                <span id="labelNome" class="span-required">Nome deve ter no minimo 3 caracteres</span>
+            </div>
+            <br>
+            <div>
+                <input type="email" id="email" placeholder="Digite o seu Email:" class="inputs required" oninput="emailValidate()">
+                <span id="labelEmail" class="span-required">Digite um Email valido</span>
+            </div>
+            <br>
+            <div>
+                <input type="password" id="password" placeholder="Digite sua senha:" class="inputs required" oninput="senhaValidate()">
+                <span id="labelPassword" class="span-required">Digite uma senha com no minimo 8 caracteres</span>
+            </div>
+            <br>
+            <div>
+                <input type="password" id="cofPassword" placeholder="Digite sua senha novamente:" class="inputs required" oninput="seSenhaForIqual()">
+                <span id="labelCofPassword" class="span-required">As senhas tem que ser compativeis</span>
+            </div>
+            <br>
+            <br>
+            <button onclick="cadastrar()">Enviar</button>
+        </form>
+    </div>
+</body>
+<script src="mainn.js">
+</script>
+</html>

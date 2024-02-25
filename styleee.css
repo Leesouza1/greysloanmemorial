@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,
+    cyan, yellow);
+}
+.cabecalho {
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-bottom: 1px solid #282828;
+}
+.cabecalho .logo {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .logo img {
+    height: 99px;
+    gap: 30px;
+}
+.cabecalho .menu {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .menu li a {
+    padding: 30px;
+    color: #282828;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #282828;
+}
+.NomeDoHospital{
+    color: rgb(241, 39, 69);
+    padding-top: 30px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.paciente a {
+    background-color: dodgerblue;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.paciente a:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.field {
+    background-color: rgba(11, 59, 38, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+.paciente h1{
+    text-align: center;
+    font-size: 50px;
+}
+.sexo{
+    font-size: 20px;
+}
+.agenda.ativo {
+    display: block;
+}
+.agenda {
+    display: none;
+}
+.paciente.ativo {
+    display: block;
+}
+.paciente {
+    display: none;
+}
+.profissional.ativo {
+    display: block;
+}
+.profissional {
+    display: none;
+}
+.agenda a {
+    padding: 10px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.agenda a:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.agenda h1{
+    text-align: center;
+    font-size: 50px;
+}
+.date {
+    gap: 30px;
+}
+.Horario {
+    gap: 10px;
+}
+.agenda img {
+    position: absolute;
+    height: 150px;
+    padding-left: 100px;
+}
+.btn-agendar-cancelar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profissional img {
+    height: 150px;
+}
+.profissional a {
+    padding: 10px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.profissional a:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.profissional h1{
+    text-align: center;
+    font-size: 50px;
+}
